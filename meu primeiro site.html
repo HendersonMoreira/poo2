@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista Filmes e Animes</title>
+    <style>
+body{
+    background-color: black;
+}
+input{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.menu{
+list-style:none;
+border:1px solid #c0c0c0;
+float:left;
+}
+.menu li  ul{
+position:absolute;
+top:20px;
+left:0;
+background-color:#fff;
+display:none;
+}
+.menu li{
+position:relative;
+float:left;
+border-right:1px solid #c0c0c0;
+}
+.menu li  ul{
+position:absolute;
+top: 1px;
+left:0;
+background-color:#fff;
+display:none;
+}
+.menu li a{color:rgb(0, 89, 255); text-decoration:none; padding:5px 10px; display:block;
+
+}
+.menu li a:hover{
+background:#333;
+color:#fff;
+text-shadow:0px 0px 5px #fff;
+}
+.menu{
+    position: absolute;
+    top: -8px;
+    left: 185px;
+
+}
+.menu li  ul{
+position:absolute;
+top:25px;
+left:0;
+background-color:#fff;
+display:none;
+}
+.we{
+    position: absolute;
+top: 310px;
+left: 830px;
+
+}
+.se{
+    position: absolute;
+top: 330px;
+left: 865px;
+}
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  left: 840px;
+}
+    </style>
+</head>
+<body>
+    
+
+<div class="img">
+    <img class="logo" src="inicio.png" alt="logo" height="300" width="1870">
+
+    <ul class= "menu">
+        <li><a href="#">A lista</a></li>
+        <li><a href="#">Animes</a></li>
+        <li><a href="#">Filmes</a></li>
+        <li><a href="#">Entre em contato</a></li>
+        </ul>
+   
+</div>
+<div class="in">
+<input class="bem" type="text" name="input" value="busca">
+<div class="form-wrapper">
+    <input class="we" type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+    <button class="se" onClick="adicionarFilme()">Adicionar Filme</button>
+  </div>
+</div>
+<div id="listaFilmes"></div>
+
+
+    <script>
+function adicionarFilme() {
+  var filmeFavorito = document.getElementById("filme").value;
+  if (filmeFavorito.endsWith(".jpg")) {
+    listarFilmesNaTela(filmeFavorito);
+  }
+  document.getElementById("filme").value = ""; 
+}
+
+function listarFilmesNaTela(filme) {
+  var elementoFilmeFavorito ="<img src=" + filme + ">";
+  var elementoListafilmes = document.getElementById("listaFilmes");
+  elementoListafilmes.innerHTML = elementoListafilmes.innerHTML + elementoFilmeFavorito
+}
+var listaFilmes = []
+
+for (var i = 0; i < listaFilmes.length; i++) {
+  document.write("<img src=" + listaFilmes[i] + ">")
+}
+
+    </script>
+
+</body>
+</html>
