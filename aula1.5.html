@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POO 5.1</title>
+</head>
+
+<body>
+
+    <script>
+
+        class Produto {
+
+            #origem
+            #preco
+            #marca
+            #codigo
+            #descricao
+
+            constructor(codigo) { this.setCodigo(codigo) }
+
+            setOrigem(origem) { this.#origem = origem }
+            setPreco(preco) { this.#preco = preco }
+            setMarca(marca) { this.#marca = marca }
+            setCodigo(codigo) { this.#codigo = codigo }
+            setDescricao(descricao) { this.#descricao = descricao }
+
+            getOrigem() { return this.#origem }
+            getPreco() { return this.#preco }
+            getMarca() { return this.#marca }
+            getCodigo() { return this.#codigo }
+            getDescricao() { return this.#descricao }
+
+        }
+
+        class Vestuario extends Produto {
+
+            #tipo
+            #tamanho
+            #cor
+
+            constructor(codigo, tipo) {
+                super(codigo) // Executar o construtor da classe pai                
+                this.setTipo(tipo)
+            }
+
+            setTipo(tipo) { this.#tipo = tipo }
+            setTamanho(tamanho) { this.#tamanho = tamanho }
+            setCor(cor) { this.#cor = cor }
+
+            getTipo() { return this.#tipo }
+            getTamanho() { return this.#tamanho }
+            getCor() { return this.#cor }
+
+        }
+
+        class Calca extends Vestuario {
+
+        }
+
+        var bone = new Vestuario('Bone', 'Chapéu')
+
+        //seta atributos do objeto
+        bone.setMarca("bin"); //observe este atributo de "produto"
+        bone.setPreco(30.88); //observe este atributo de "produto"
+        bone.setCor("azul");  //observe este atributo de "vestuario"
+        bone.setTamanho("G"); //observe este atributo de "Tamanho"
+        bone.setOrigem("Loja C&A"); //observe este atributo de "Origem"
+
+        //Exibe O objeto 
+        console.log("bone: ", bone);
+
+        document.write(`
+        <ul>
+        <p> o bone 
+        <li>${bone.getMarca()}
+        <li> ${bone.getPreco()} 
+        <li>${bone.getCor()}
+        <li>${bone.getTamanho()} 
+        <li>${bone.getOrigem()}
+        </ul></p>`);
+
+        class Alimento extends Produto {
+            #cor;
+            #peso;
+
+            constructor(codigo, cor, peso) {
+                super(codigo)
+                this.setCor(cor)
+                this.setpeso(peso)
+            }
+            setCor(cor) { this.#cor = cor }
+            setpeso(peso) { this.#peso = peso }
+
+            getCor() { return this.#cor }
+            getPeso() { return this.#peso }
+        }
+
+        var cenoura = new Alimento("111554752", "laraja", "12kg");
+
+        console.log(cenoura);
+
+        class Movel extends Produto {
+
+#pernas;
+#material;
+
+setPernas(pes) { this.#pernas = pes }
+setMaterial(mat) { this.#material = mat }
+
+getPernas() { return this.#pernas }
+getMaterial() { return this.#material }
+
+}
+
+var cadeira = new Movel('t6t67y7y87')
+cadeira.setPernas(4)
+cadeira.setMaterial('ferro')
+cadeira.setDescricao('Cadeira chique')
+console.log(cadeira)
+
+
+    </script>
+
+</body>
+
+</html>
