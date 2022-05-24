@@ -1,0 +1,22 @@
+
+body{
+    background-color: rgb(115, 255, 0);
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: blue;
+}
+.um{
+    color: red;
+}
+.IG{
+    margin-left: 32%;
+}
+a{
+    text-decoration: none;
+}
+.BE{
+    margin-top: 100%;
+}
