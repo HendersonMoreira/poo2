@@ -18,11 +18,12 @@ body {
 }
 
 .mainav {
-    background-color: fuchsia;
+    background-color:fuchsia;
     color: white;
     padding: 0 1%;
     margin-bottom: 5%;
     margin-top: 1%;
+    height: 27px;
 }
 
 .mainav li {
@@ -44,17 +45,37 @@ body {
     text-shadow: 0px 0px 25px #fff;
     font-size: 17px;
 }
-.footer{
+
+.footer {
     position: absolute;
     color: #fff;
-    top: 950px;
-    left: 1560px;
+    top: 95%;
+    left: 1350px;
     font-size: 15px;
 }
-.search{
-    position: absolute;
-    top: 262px;
-    left: 1385px;
 
-    
+.search {
+    position: absolute;
+    top: 234px;
+    left: 1182px;
+}
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+.pesqui{
+    position: absolute;
+    top: 234px;
+    left: 1398px;
+    font-size: 5%;
+}
+button{
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
