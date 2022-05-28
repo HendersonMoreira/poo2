@@ -3,7 +3,7 @@ body {
     padding: 0;
     text-align: center;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Rubik Wet Paint', cursive;
     background: rgb(0, 0, 0) url(../img/);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -50,22 +50,22 @@ body {
     position: absolute;
     color: #fff;
     top: 95%;
-    left: 1350px;
+    left: 82%;
     font-size: 15px;
 }
 
 .search {
     position: absolute;
-    top: 234px;
-    left: 1182px;
+    top: 20%;
+    left: 72%;
 }
 textarea:focus, input:focus, select:focus {
     outline: 0;
 }
 .pesqui{
     position: absolute;
-    top: 234px;
-    left: 1398px;
+    top: 20%;
+    left: 83%;
     font-size: 5%;
 }
 button{
@@ -79,3 +79,24 @@ button{
     margin: 4px 2px;
     cursor: pointer;
 }
+.carrossel {
+    position: relative;
+    display: inline-block;
+    margin-top: 1%;
+    padding: 1%;
+    border-radius: 0em;
+    transition: 2.0s;
+    top: -100px;
+    
+}
+img {
+    position: relative;
+    width: 170px;
+    height: 300px;
+    border-radius: 0em;
+  }
+#logo{
+      height: 100%;
+      width: 35%;
+      border-radius: 0em;
+  }
