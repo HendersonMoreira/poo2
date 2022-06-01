@@ -186,7 +186,7 @@ h2 {
     position: relative;
     left: -750px;
 }
-.header{
+.header a{
     position: relative;
     left: -33%;
 }
@@ -197,7 +197,7 @@ h2 {
 }
 .sete{
     width: 60px;
-    height: 60px;
+    height: 70px;
     float: left;
     border-radius: 6px;
 }
@@ -206,11 +206,14 @@ font-size: 10px;
 float: left;
 position:relative;
 top: -30px;
+left: 3px;
 }
 #spy{
 font-size: 12px;
-position: relative;
-left: -62px;
+position: absolute;
+top: 905px;
+left: 63px;
 line-height: 15px;
 text-align:justify;
+margin-right: 1019px;
 }
