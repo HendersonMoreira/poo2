@@ -11,11 +11,37 @@
 
 <body>
     <div class="contents">
-
+        <form>
+<fieldset>
+    <legend>Fale Conosco</legend>
+    <br>
+    <label>Informe seu Nome:</label>
+    <input type="text" name="nome" placeholder="Digita Seu Nome Aqui" maxlength="40" required>
+    <br><br>
+    <label>Informe seu E-mail:</label>
+    <input type="text" name="email" placeholder="Digita Seu Email" required>
+    <br><br>
+    <label>Selecione o Assunto</label>
+    <select name="assunto">
+        <option value="0">Selecione</option>
+        <option value="1">Segestões</option>
+        <option value="2">Criticas</option>
+        <option value="3">Elogios</option>
+        <option value="4">Outros</option>
+    </select>
+    <br><br>
+    <label>escreva sua Mensagem</label>
+    <br>
+    <textarea id="sua" name="recado" rows="5" maxlength="600"></textarea>
+    <br><br>
+    <input type="submit" name="enviar" value="Enviar">
+    <input type="reset" name="limpar" value="Limpar">
+</fieldset>
+</form>
     </div>
     <div class="container">
         <div class="header">
-            <a href="index.html"><img id="logo" src="logo.png" width="80%" height="80%"></a>
+            <a href="index.html"><img id="logo" class="he" src="logo.png" alt="logo" width="80%" height="80%"></a>
         </div>
         <div class="mainav">
             <ul>
@@ -46,33 +72,12 @@
     <div class="pesqui">
         <button type="submit" id="pes" aria-placeholder="sea">&#128269;</button>
     </div>
-    <figure class="carrossel">
-        <marquee behavior="alternate">
-            <img src="img/bleach-manga.jpg">
-            <img src="img/violet.jpg">
-            <img src="img/duna.jpg">
-            <img src="img/encanto.jpeg">
-            <img src="img/one.jpg">
-            <img src="img/red.jpg">
-            <img src="img/stranger things.jpg">
-            <img src="img/sweet.jpg">
-            <img src="img/anime.jfif">
-            <img src="img/sei.jpg">
-        </marquee>
-    </figure>
     <div class="row">
         <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button thar-tw">Login</a> </div>
         <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button thar-th">Register</a> </div>
       </div>
 
     <!--http://dontpad.com/tiofiu-->
-    <div class="top">
-
-<img class="sete" src="img/spy x family.jpg"></a> 
-<h5>"Spy x Family" Animes de 2022</h5>
-
-<p id="spy">Spy x Family é uma série japonesa de mangá shōnen escrita e ilustrada por Tatsuya Endo. A história segue a vida de Twilight, um espião que precisa "formar uma família" de forma repentina para executar uma missão. A reviravolta se dá quando percebemos que a garota que ele adota como filha é uma paranormal capaz de ler mentes e a mulher com quem ele concorda em se casar para formar um falso casamento é uma assassina profissional. E a partir daí, acompanhamos essa história de comédia com essa família um tanto quanto diferente vivendo sem saber os segredos uns dos outros.</p>
-    </div>
 </body>
 
 </html>
