@@ -272,3 +272,10 @@ h5:hover{
     top: 600px;
     left: 500px;
 }
+.content{
+    position: absolute;
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 20%;
+}
