@@ -11,7 +11,7 @@
 
 <body>
     <div class="contents">
-        <form>
+        <form name="faleConosco" onsubmit="msg()">
 <fieldset>
     <legend>Fale Conosco</legend>
     <br>
@@ -20,6 +20,9 @@
     <br><br>
     <label>Informe seu E-mail:</label>
     <input type="text" name="email" placeholder="Digita Seu Email" required>
+    <br><br>
+    <label>Informe o seu telefone</label>
+    <input type="text" name="tel" maxlength="14" placeholder="(00)00000-00000" size="12" onkeypress="mascara_tel(this)">
     <br><br>
     <label>Selecione o Assunto</label>
     <select name="assunto">
@@ -81,3 +84,5 @@
 </body>
 
 </html>
+
+<script type="text/javascript" src="js/funcao.js"></script>
