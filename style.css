@@ -2,21 +2,23 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    color: rgb(255, 254, 254);
+    color: rgb(255, 255, 255);
     font-family: 'Rubik Wet Paint', cursive;
     background: rgb(0, 0, 0) url(../img/);
     background-size: 100%;
 }
 
 .mainav {
-    background-color: fuchsia;
-    color: white;
-    padding: 0 1%;
-    margin-bottom: 5%;
-    height: 70px;
+    background-color: rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
+    padding: 0 2%;
+    margin-bottom: 3%;
+    height: 80px;
     position: fixed;
     margin-top: -5%;
-    width: 1630px;
+    margin-left: -12%;
+    width: 1690px;
+    
 }
 
 .mainav li {
@@ -33,6 +35,7 @@ body {
     font-size: 17px;
     position: relative;
     left: -36%;
+    top: 18px;
 }
 
 .mainav li a:hover {
@@ -53,7 +56,7 @@ body {
 .search {
     position: fixed;
     top: 1%;
-    left: 73%;
+    left: 71%;
 }
 
 textarea:focus,
@@ -63,9 +66,9 @@ select:focus {
 }
 
 .pesqui {
-position: fixed;
-top: 1%;
-left: 86%;
+    position: fixed;
+    top: 1%;
+    left: 86%;
 }
 
 button {
@@ -184,72 +187,82 @@ a.animated-button.thar-th:before {
     background: #F7CA18;
     transition: all 0.4s cubic-bezier(0.200, 0, 0.58, 1)0s;
 }
+
 h2 {
     position: relative;
     left: -750px;
 }
-.header a{
+
+.header a {
     position: relative;
-    left: -32%;
-    top: 50px;
+    left: -47%;
+    top: 55px;
 }
-.contentx{
+
+.contentx {
     color: #fff;
     float: left;
-    position:absolute;
+    position: absolute;
     top: 15%;
     left: 1%;
 }
 
-h5{
-font-size: 13px;
-float: left;
-position:relative;
-top: 745px;
-left: 60px;
-color: rgb(255, 255, 255);
-}
-#spy{
-font-size: 10px;
-position: relative;
-top: 790px;
-left: -140px;
-padding: 0%;
-margin-right: 60%;
-text-align:justify;
-font-family: Arial, Helvetica, sans-serif;
-}
-h5:hover{
+h5 {
+    font-size: 13px;
+    float: left;
     position: relative;
-    margin-top: 20px;
-    text-decoration:underline;
+    top: 755px;
+    left: 500px;
+    color: rgb(255, 255, 255);
+}
+
+#spy {
+    font-size: 10px;
+    position: relative;
+    top: 780px;
+    left: 210px;
+    padding: 0%;
+    margin-right: 41%;
+    margin-left: 20%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5:hover {
+    position: relative;
+    margin-top: 1px;
+    text-decoration: underline;
     color: rgb(0, 217, 255);
     text-shadow: 0px 0px 8px rgb(0, 132, 255);
-
 }
-.contents{
+
+.contents {
     position: absolute;
     top: 12%;
 }
-#sua{
+
+#sua {
     width: 100%;
     height: 180px;
 }
-#spyxfamily{
+
+#spyxfamily {
     position: relative;
     width: 3%;
     height: 3%;
-    top: 703px;
-    left: -48%;
+    top: 690px;
+    left: -19%;
 }
-#imagem{
+
+#imagem {
     position: relative;
     height: 60%;
     width: 60%;
     top: 220px;
     left: -1080px;
 }
-#textospy{
+
+#textospy {
     position: relative;
     text-align: justify;
     margin-right: -70%;
@@ -257,25 +270,46 @@ h5:hover{
     left: -1440px;
     top: -210px;
 }
-#nomedoa{
+
+#nomedoa {
     position: relative;
-    left: -1450px;
+    left: -1370px;
     top: -100px;
+    margin-left: -10%;
 }
-#nomedoa:hover{
+
+#nomedoa:hover {
     color: rgb(247, 0, 255);
     text-decoration: underline;
     text-shadow: 0px 0px 50px rgb(255, 0, 234);
 }
-.videospy{
+
+.videospy {
     position: absolute;
     top: 600px;
     left: 500px;
 }
-.content{
+
+.content {
     position: absolute;
     text-align: justify;
     margin-top: 10%;
     margin-left: 5%;
     width: 20%;
+}
+
+#carouselExampleCaptions {
+    margin-top: -5%;
+}
+
+.anime {
+    position: relative;
+    left: 0%;
+    width: 900px;
+    height: 590px;
+}
+
+h4 {
+    font-size: 25px;
+    color: rgb(30, 255, 0);
 }

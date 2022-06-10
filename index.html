@@ -1,13 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>list of movies and animes</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>projeto Cariocando</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+<body>
+    
 </head>
 
 <body>
@@ -39,7 +42,7 @@
         </div>
     </div>
     <div class="search">
-        <input type="text" id="nome" name="name" placeholder="search animes mangas Etc" size="30">
+        <input type="text" id="nome" name="name" placeholder="search animes mangas Etc" size="30" style="font-family:Rubik Wet Paint cursive">
     </div>
     <div class="next">
 
@@ -48,18 +51,6 @@
         <button type="submit" id="pes" aria-placeholder="sea">&#128269;</button>
     </div>
     <figure class="carrossel">
-        <marquee behavior="alternate">
-            <img src="img/bleach-manga.jpg">
-            <img src="img/violet.jpg">
-            <img src="img/duna.jpg">
-            <img src="img/encanto.jpeg">
-            <img src="img/one.jpg">
-            <img src="img/red.jpg">
-            <img src="img/stranger things.jpg">
-            <img src="img/sweet.jpg">
-            <img src="img/anime.jfif">
-            <img src="img/sei.jpg">
-        </marquee>
     </figure>
     <div class="row">
         <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button thar-tw">Login</a> </div>
@@ -71,10 +62,103 @@
 <h5>"Spy x Family" Animes de 2022</h5>
 
 <p id="spy">Spy x Family é uma série japonesa de mangá shōnen escrita e ilustrada por Tatsuya Endo. A história segue a vida de Twilight, um espião que precisa "formar uma família" de forma repentina para executar uma missão. A reviravolta se dá quando percebemos que a garota que ele adota como filha é uma paranormal capaz de ler mentes e a mulher com quem ele concorda em se casar para formar um falso casamento é uma assassina profissional. E a partir daí, acompanhamos essa história de comédia com essa família um tanto quanto diferente vivendo sem saber os segredos uns dos outros.</p>
-
     </div>
-    
-        <a class="" href="spyxfamily.html"><img id="spyxfamily" src="img/spy x family.jpg"></a>
+    <div class="x">
+        <a href="spyxfamily.html"><img id="spyxfamily" src="img/spy x family.jpg"></a>
+    </div>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"   aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 9"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-color: yellow;">
+            <img src="img/ash-pikachu.jpg" class="anime" alt="" >
+            <div class="carousel-caption">
+              <h4>Pokémon</h4>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color: DeepSkyBlue;">
+            <img src="img/naruto shippuden.png" class="anime" alt="" >
+            <div class="carousel-caption">
+              <h4>Naruto Shippuden</h4>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color: #FF4500;">
+            <img src="img/dragol boll z.jpg" class="anime" alt="...">
+            <div class="carousel-caption">
+              <h4>Dragon Ball Z</h4>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color: DimGray;">
+            <img src="img/dead note.jpg" class="anime" alt="...">
+            <div class="carousel-caption">
+              <h4>Death Note</h4>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color: red;">
+            <img src="img/one.jpg" class="anime" alt="..." >
+            <div class="carousel-caption">
+              <h4>One Piece</h4>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color: HotPink;">
+            <img src="img/euphoria.jpg" class="anime" alt="...">
+            <div class="carousel-caption">
+              <h4>Euphoria</h4>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Game Of Thrones.jpg" class="anime" alt="...">
+            <div class="carousel-caption">
+              <h4>Game Of Thrones</h4>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color: DarkRed;">
+            <img src="img/stranger things.jpg" class="anime" alt="...">
+            <div class="carousel-caption">
+              <h4>Stranger Things</h4>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color:MediumBlue;">
+            <img src="img/O Projeto Adam.jpg" class="anime" alt="...">
+            <div class="carousel-caption">
+              <h4>O Projeto Adam</h4>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color:ForestGreen;">
+            <img src="img/jurrasic.jpg" class="anime" alt="...">
+            <div class="carousel-caption">
+              <h4>Jurassic World Dominion</h4>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
 </body>
 
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script> <script type="textjavascript" src="script01.js"></script>
