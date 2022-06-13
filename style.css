@@ -48,8 +48,8 @@ body {
 .footer {
     position: absolute;
     color: #fff;
-    top: 95%;
-    left: 80%;
+    top: 78%;
+    left: 83%;
     font-size: 12px;
 }
 
@@ -195,8 +195,8 @@ h2 {
 
 .header a {
     position: relative;
-    left: -47%;
-    top: 55px;
+    top: 150px;
+    left: -620px;
 }
 
 .contentx {
@@ -209,23 +209,8 @@ h2 {
 
 h5 {
     font-size: 13px;
-    float: left;
     position: relative;
-    top: 755px;
-    left: 500px;
     color: rgb(255, 255, 255);
-}
-
-#spy {
-    font-size: 10px;
-    position: relative;
-    top: 780px;
-    left: 210px;
-    padding: 0%;
-    margin-right: 41%;
-    margin-left: 20%;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h5:hover {
@@ -238,7 +223,7 @@ h5:hover {
 
 .contents {
     position: absolute;
-    top: 12%;
+    top: 15%;
 }
 
 #sua {
@@ -299,12 +284,12 @@ h5:hover {
 }
 
 #carouselExampleCaptions {
-    margin-top: -5%;
+    margin-top: 5%;
 }
 
 .anime {
     position: relative;
-    left: 0%;
+    top: 0px;
     width: 900px;
     height: 590px;
 }
@@ -313,3 +298,96 @@ h4 {
     font-size: 25px;
     color: rgb(30, 255, 0);
 }
+.borda{
+    margin: 0;
+        padding: 0;
+        text-align:justify;
+        color: rgb(0, 0, 0);
+        width: 75%;
+        margin: 2% auto;
+        text-align:left;
+        background: #ffffff;
+        margin-top: 2%;
+    }
+    img{
+        position: relative;
+        top: -95px;
+        left: 1%;
+        width: 4%;
+        height: 4%;
+    }
+    h5{
+        font-size: 13px;
+        color: rgb(0, 0, 0);
+    }
+    h5:hover {
+        margin-top: 0px;
+        text-decoration: underline;
+        color: rgb(0, 93, 109);
+        text-shadow:rgb(0, 0, 0);
+    }
+    #hare{
+      margin-left: 80%;
+      position: relative;
+      right: 75%;
+      top: 15px;
+      font-size: 10px;
+        color: rgb(0, 0, 0);
+    }
+    #ip{
+    position: relative;
+    top: 15px;
+    }
+    .ai:hover{
+    border-radius: 10px;
+    }
+    .love{
+      position: relative;
+      top: 15px;
+    }
+    .game{
+        position: relative;
+        top: 15px;
+    }
+    .hero{
+        position: relative;
+        top: 15px;
+    }
+    #spy{
+        color: black;
+        margin-left: 5%;
+        margin-right: 50%;
+        font-size: 10px;
+        }
+        #be{
+            margin-left: 72%;
+            position: relative;
+            right: 67%;
+            top: 5px;
+            font-size: 10px;
+              color: rgb(0, 0, 0);
+        }
+        #it{
+            margin-left: 72%;
+            position: relative;
+            right: 67%;
+            top: 5px;
+            font-size: 10px;
+              color: rgb(0, 0, 0);
+        }
+        #th{
+            margin-left: 72%;
+            position: relative;
+            right: 67%;
+            top: 5px;
+            font-size: 10px;
+              color: rgb(0, 0, 0);
+        }
+        #pr{
+            margin-left: 72%;
+            position: relative;
+            right: 67%;
+            top: 5px;
+            font-size: 10px;
+              color: rgb(0, 0, 0);
+        }
